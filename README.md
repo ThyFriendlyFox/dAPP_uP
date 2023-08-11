@@ -1,38 +1,26 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+# Canvas Drawing App\n
+An interactive browser-based drawing tool designed with the modern Svelte framework. Users can effortlessly sketch directly onto a canvas that dynamically adapts to the browser window's size.\n
+## Features\n
+- **Dynamic Canvas**: The canvas element resizes to fit the entire browser window.\n
+- **Real-time Drawing**: Utilizes the HTML5 Canvas 2D context for immediate drawing capabilities.\n
+- **Undo Feature**: Users can revert their most recent changes with a simple CTRL+Z keyboard shortcut.\n
+- **WebGPU Ready**: Contains placeholders and infrastructure for future integration with the emerging WebGPU API, setting the stage for next-generation graphics rendering.\n
+## Getting Started\n
+1. Clone the repository:\n
+   ```bash\n
+   git clone [your-repo-link]\n
+   ```\n
+2. Navigate to the project directory and install dependencies:\n
+   ```bash\n
+   cd canvas-drawing-app\n
+   npm install\n
+   ```\n
+3. Start the development server:\n
+   ```bash\n
+   npm run dev\n
+   ```\n
+Now, you can open your browser and navigate to `http://localhost:3000` to see the app in action.\n
+## Contribution\n
+Contributions are always welcome! Please fork the repository and create a Pull Request with your enhancements.\n
+## License\n
+[MIT License](LICENSE)
