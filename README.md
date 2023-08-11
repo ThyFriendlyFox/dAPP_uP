@@ -8,7 +8,7 @@ An interactive browser-based drawing tool designed with the modern Svelte framew
 ## Getting Started
 1. Clone the repository:
    ```bash 
-   git clone [your-repo-link] 
+   git clone https://github.com/ThyFriendlyFox/dAPP_uP canvas-drawing-app 
    ``` 
 2. Navigate to the project directory and install dependencies: 
    ```bash 
